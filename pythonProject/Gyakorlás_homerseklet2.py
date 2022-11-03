@@ -6,7 +6,7 @@ mertekegyseg = input("Mértékegység: f,c,k    ")
 valt = input("Váltómértékegység: f,c,k    ")
 if mertekegyseg == "c":
     if valt == "c":
-        print("A hőmérséklet C°-ban", homerseklet)
+        print("TE IDES HÁ E UGYAN ANNYI, NIND E", homerseklet)
     elif valt == "f":
         F = homerseklet * 1.8 + 32
         print("A hőmérséklet F°-ben", F)
@@ -16,7 +16,7 @@ if mertekegyseg == "c":
 
 elif mertekegyseg == "f":
     if valt == "f":
-        print("A hőmérséklet F°-ben", homerseklet)
+        print("TE IDES HÁ E UGYAN ANNYI, NIND E", homerseklet)
     elif valt == "c":
         C = (homerseklet - 32) / 1.8
         print("A hőmérséklet C°-ban", C)
@@ -26,7 +26,7 @@ elif mertekegyseg == "f":
 
 elif mertekegyseg == "k":
     if valt == "k":
-        print("A hőmérséklet K°-ben", homerseklet)
+        print("TE IDES HÁ E UGYAN ANNYI, NIND E", homerseklet)
     elif valt == "f":
         F = (homerseklet-273.15) * 1.8 + 32
         print("A hőmérséklet F°-ben", F)
