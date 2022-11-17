@@ -1,7 +1,10 @@
-
-szam = float(input("Adja meg az átváltani kívánt értéket   "))
+szam = -3
 mertekegyseg = input("Mértékegység: mm, cm, dm, m, km    ")
 valt = input("Váltómértékegység: mm, cm, dm, m, km   ")
+
+while szam<=0 and :
+    szam = float(input("Adja meg az átváltani kívánt értéket   "))
+
 
 if mertekegyseg == "mm":
     if valt == "mm":
