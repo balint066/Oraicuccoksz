@@ -5,6 +5,6 @@ for i in range(osztalyletszam):
     listamagas.append(magassag)
 legnagyobb=0
 for i in listamagas:
-    if i>legnagyobb
+    if i>legnagyobb:
         legnagyobb = i
 print(legnagyobb)

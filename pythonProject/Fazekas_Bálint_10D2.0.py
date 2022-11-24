@@ -32,7 +32,7 @@ while szam>=0:
         elif valt == "m":
                 M = szam / 100
                 print("A választott szám m-ben", M)
-            elif valt == "km":
+        elif valt == "km":
                 KM = szam / 100000
                 print("A választott szám km-ben", KM)
 
