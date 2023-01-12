@@ -15,10 +15,15 @@
 #        maxhely = i
 #print(maxElem,maxhely)
 ##########################
+#t = [3,8,2,4,5,1,6]
+##osszeg = 0
+#for num in t:
+#    osszeg = osszeg + num
+
+#print("Összeg:",osszeg)
+##########################
 t = [3,8,2,4,5,1,6]
-
-osszeg = 0
-for num in t:
-    osszeg = osszeg + num
-
-print("Összeg:",osszeg)
+minElem = t[0]
+for [i] in range(1,len(t)):
+    if t[i] < minElem:
+        minElem = t[i]
