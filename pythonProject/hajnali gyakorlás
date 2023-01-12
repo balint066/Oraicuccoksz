@@ -1,0 +1,30 @@
+lista1 = [1,12,4,9]
+
+maxElem = lista1[0]
+for i in range(1,len(lista1)):
+    if lista1[i] > maxElem:
+        maxElem = lista1[i]
+        maxhely = i
+print("A legnagyobb elem",maxElem,lista1.index(maxElem)+1)
+
+
+
+lista=["piros", "alma" , "zöld", "zöld", "zöld", "zöld"]
+#hány db van benne
+count = 0
+for a in lista:
+    if a == "zöld":
+        count = count+1
+print (count)
+
+#van e benne
+n = len(lista)
+ker = "alma"
+i = 0
+while i < n and lista[i] != ker:
+    i = i + 1
+if ker in lista:
+    print("Van ilyen: ", ker)
+else:
+    print("Nincs ilyen elem: ", ker)
+
