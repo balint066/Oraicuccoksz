@@ -9,3 +9,4 @@ for i in range(len(lista1)-1):
         lista1[i], lista1[minindex] = lista1[minindex], lista1[i]
 
 print(" ", lista1)
+#.sort, reverse
