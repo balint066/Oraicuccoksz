@@ -16,3 +16,6 @@ while True:
     if negativ_(adottszam):
         break
     else:
+        ureslista.append(adottszam)
+db = harommal_oszthatok(ureslista)
+print(db)
