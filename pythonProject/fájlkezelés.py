@@ -1,5 +1,6 @@
 himnusz = []
 uressor = []
+
 with open("himnusz.txt","r" ,encoding ="utf-8") as file:
     for sor in file:
         himnusz.append(sor.strip())
@@ -10,4 +11,13 @@ for i in himnusz:
      if i != "":
          db = db + 1
 print(db)
+versszak = []
+versszakok = ""
 for i in himnusz:
+    if i == "":
+        versszakok.append(versszak)
+        versszak = ""
+    else:
+        versszak = versszak+i+"\n"
+
+print(versszakok)
