@@ -9,3 +9,6 @@ class Teglalap:
     def __init__(self, a=0, b=0):
         self.a = a
         self.b = b
+
+    def kiir(self):
+        print("a téglalap területe: ", self.ter(), ",a kerülete: ", self.ker())
